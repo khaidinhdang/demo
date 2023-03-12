@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Quản lý vận chuyển container</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<h1>Quản lý vận chuyển container</h1>
+
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Vị trí hiện tại</th>
+			<th>Điểm đến</th>
+			<th>Tình trạng</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Long Beach</td>
+			<td>New York</td>
+			<td>In transit</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Los Angeles</td>
+			<td>Chicago</td>
+			<td>In transit</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>San Francisco</td>
+			<td>Houston</td>
+			<td>In transit</td>
+		</tr>
+	</table>
+
+	<form action="/" method="post">
+		<label for="container_id">ID của container:</label>
+		<input type="text" id="container_id" name="container_id"><br>
+
+		<label for="status">Tình trạng mới:</label>
+		<input type="text" id="status" name="status"><br>
+
+		<input type="submit" value="Cập nhật">
+	</form>
+</body>
+
+</html>
